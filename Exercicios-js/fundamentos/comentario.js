@@ -12,4 +12,4 @@ console.log('Linha 2')
 * multiplas linhas
 * com *
 */
-Console.log('Linha 3')
+console.log('Linha 3')
