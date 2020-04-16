@@ -1,0 +1,17 @@
+V e V -> V
+V e F -> F
+F e ? -> F
+
+V ou ? -> V
+F ou V -> V
+F ou F -> F
+
+//Ou exclusivo (xor) as condições devem ser diferentes para que sejam verdade.
+V xor V -> F 
+V xor F -> V
+F xor F -> F
+F xor V -> V
+
+//Negação lógica
+!V -> F
+!F -> V
