@@ -1,0 +1,31 @@
+/*
+* 02) Os triângulos podem ser classificados em 3 tipos quanto ao tamanho de seus lados:
+* Equilátero: Os três lados são iguais. Isósceles: Dois lados iguais. Escaleno: Todos os lados são diferentes.
+* Crie uma função que recebe os comprimentos dos três lados de um triângulo e retorne sua classificação quanto
+* ao tamanho de seus lados. (Neste exemplo deve-se abstrair as condições matemáticas de existência de um
+* triângulo).
+*/
+
+function classificaTriangulo(lado1, lado2, lado3){
+    if(lado1 == lado2 && lado2 == lado3){
+        return 'Triangulo Equilátero (Todos os lados iguais)'
+    }else if (lado1 != lado2 && lado2 != lado3 && lado1 != lado3){
+        return 'Triangulo Isósceles (Todos os lados diferentes)'
+    }else {
+        return 'Triangulo Escaleno (Dois lados iguais)'
+    } 
+}
+
+console.log('Curso Web Moderno - Exercícios Javascript')
+console.log('Os triângulos podem ser classificados em 3 tipos quanto ao tamanho de seus lados: \n'
+            +'Equilátero: Os três lados são iguais. \n' 
+            +'Isósceles: Dois lados iguais. Escaleno: Todos os lados são diferentes. \n'
+            +'Crie uma função que recebe os comprimentos dos três lados de um triângulo e retorne sua classificação quanto ao tamanho de seus lados. \n' 
+            +'(Neste exemplo deve-se abstrair as condições matemáticas de existência de um triângulo).')
+
+console.log(classificaTriangulo(1,1,1))
+console.log(classificaTriangulo(1,1,2))
+console.log(classificaTriangulo(1,2,3))
+console.log(classificaTriangulo(3,2,1))
+console.log(classificaTriangulo(2,1,1))
+console.log(classificaTriangulo(2,1,2))
