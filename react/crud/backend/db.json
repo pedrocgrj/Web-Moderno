@@ -1,0 +1,34 @@
+{
+  "user": [
+    {
+      "id": 1,
+      "name": "Arthur Oliveira",
+      "email": "aoliveira@"
+    },
+    {
+      "id": 2,
+      "name": "Maria Julia",
+      "email": "mjulia@cod3r.com.br"
+    },
+    {
+      "name": "Pedro Henrique Ribeiro Fernandes",
+      "email": "pedrohenrique.midas@gmail.com",
+      "id": 3
+    },
+    {
+      "name": "Pedro Henrique Ribeiro Fernandes",
+      "email": "123ew",
+      "id": 6
+    },
+    {
+      "name": "Pedro Henrique Ribeiro Fernandes",
+      "email": "pedrohenrique.midas@alterado.com",
+      "id": 9
+    },
+    {
+      "name": "Pedro",
+      "email": "pedrohenrique.midas@gmail.com",
+      "id": 11
+    }
+  ]
+}
